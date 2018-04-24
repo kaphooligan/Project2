@@ -13,7 +13,7 @@ public class MovieDemo {
 			System.out.println("Press 2 to look at all the existing Movies");
 			System.out.println("Press 3 to end the program");
 			option = keyboard.nextInt();
-			keyboard.nextLine(); // go to the next line
+			keyboard.nextLine(); 
 			
 			if(option == 1) {
 				System.out.println("What is the name of the movie?");
@@ -44,7 +44,7 @@ public class MovieDemo {
 						numberOfMovies++;
 					}
 					else {
-						System.out.println("This movie already exists!");
+						System.out.println("This movie already exists");
 					}
 				}
 				else {
@@ -59,10 +59,10 @@ public class MovieDemo {
 				}
 			}
 			else if(option == 3) {
-				System.out.println("Thank you for using the program!");
+				System.out.println("Goodbye");
 			}
 			else {
-				System.out.println("Error! Invalid option! Try again!");
+				System.out.println("ERROR");
 			}
 			
 		}while(option != 3);
