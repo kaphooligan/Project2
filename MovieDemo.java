@@ -44,11 +44,11 @@ public class MovieDemo {
 						numberOfMovies++;
 					}
 					else {
-						System.out.println("This building already exists!");
+						System.out.println("This movie already exists!");
 					}
 				}
 				else {
-					System.out.println("There is no more room for additional buildings");
+					System.out.println("There is no more room for additional movies");
 				}
 			}
 			else if(option == 2) {
