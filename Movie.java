@@ -1,17 +1,17 @@
 
 public class Movie {
-	//instance variables
+	
 	private String name;
 	private int YearRealeased;
 	private String director;
-	//default constructor
+	
 	public Movie() {
 		name = "";
 		YearRealeased = 1890;
 		director = "";
 	}
 	
-	//non-static methods
+	
 	public void setName(String newName) {
 		name = newName;
 	}
